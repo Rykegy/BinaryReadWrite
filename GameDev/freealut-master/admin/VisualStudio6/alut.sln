@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "alut", "alut\alut.dsp", "{0A95EEBA-5000-464F-8A87-A6822743AAC0}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "hello_world", "hello_world\hello_world.dsp", "{D5DBB5EC-E537-4717-A665-5CBE19739630}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A95EEBA-5000-464F-8A87-A6822743AAC0} = {0A95EEBA-5000-464F-8A87-A6822743AAC0}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "playfile", "playfile\playfile.dsp", "{7434D8A3-30BA-4387-B768-801EC6F5ED2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A95EEBA-5000-464F-8A87-A6822743AAC0} = {0A95EEBA-5000-464F-8A87-A6822743AAC0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F820474D-34BD-4F92-AAD8-4B17013BA666}
+	EndGlobalSection
+EndGlobal
